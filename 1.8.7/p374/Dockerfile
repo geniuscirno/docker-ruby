@@ -25,6 +25,4 @@ ENV PATH /usr/local/ruby-${RUBY_VERSION}/bin:$PATH
 ENV GEM_HOME /usr/local/bundle
 ENV PATH $GEM_HOME/bin:$PATH
 
-WORKDIR /workspace
-
 CMD [ "bash" ]
