@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 ENV RUBY_VERSION 1.8.7-p374
 
 RUN apt-get update \
